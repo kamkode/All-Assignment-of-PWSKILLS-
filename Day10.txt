@@ -1,0 +1,72 @@
+ANSWER1.
+
+
+To create an object in Java, we need to follow these steps:
+
+Define a class: A class is a blueprint for creating objects. It specifies the properties and methods that the object will have.
+
+1.
+public class MyClass {
+    // class properties and methods
+}
+
+2.Instantiate the class: To create an object, we need to create an instance of the class using the "new" keyword.
+public class MyClass {
+    // class properties and methods
+}
+
+This example to create an object and how to use the object after creation
+
+public class Person {
+    String name;
+    int age;
+    
+    public void sayHello() {
+        System.out.println("Hello, my name is " + name + " and I am " + age + " years old.");
+    }
+}
+
+// Creating an object of the Person class
+Person person1 = new Person();
+person1.name = "Kamlesh";
+person1.age = 25;
+
+// Accessing the object's method
+person1.sayHello();
+
+
+
+Answer 2.
+In Java, the new keyword is used to create an instance of a class or to allocate memory for an object. When we create a new object using the new keyword, Java allocates memory for the object on the heap, initializes its properties to their default values, and returns a reference to the object.
+Kamlesh person1 = Kamlesh();
+
+
+Answer 3:
+1.Local variables 2.Instance variables 3.Static variables
+
+
+Answer 4.Local variables: Local variables are declared within a method or block and are only accessible within that block. They must be initialized before they can be used.
+
+public void myMethod() {
+    int x = 10; // local variable
+}
+Instance variables: Instance variables are declared within a class but outside of any method or block. They are initialized to their default values when an object of the class is created, and they retain their values until the object is destroyed.
+
+
+public class MyClass {
+    int x; // instance variable
+    
+    public void myMethod() {
+        x = 10; // accessing instance variable
+    }
+}
+
+
+
+Answer 5:Instance variables: Memory for instance variables is allocated on the heap when an object of the class is created using the new keyword. Each object has its own copy of instance variables.
+java.
+
+Local variables: Memory for local variables is allocated on the stack when a method is called, and it is deallocated when the method returns. Local variables only exist within the scope of the method or block in which they are declared.
+
+
+Answer 6:Method overloading is a feature in Java that allows us to define multiple methods with the same name in a class, as long as the parameters they take are different. In other words, we can have two or more methods in a class with the same name, but with different numbers or types of parameters.
